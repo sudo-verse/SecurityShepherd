@@ -10,7 +10,7 @@ jobs:
       PRIVADO_API_ID: "3E13237A8BD0B6CDD555826B"
       PRIVADO_API_HOST: "https://ded-v2-ci.gcp.privado-dev.com"
       PRIVADO_CI_PLATFORM: "GITHUB_ACTIONS"
-      PRIVADO_DOCKER_IMAGE: 638117407428.dkr.ecr.ap-south-1.amazonaws.com/scanner-agent:ded-v2-ci-7f78c24
+      PRIVADO_DOCKER_IMAGE: 638117407428.dkr.ecr.ap-south-1.amazonaws.com/scanner-agent:ded-v2-ci-7a09ca3
       PRIVADO_REPOSITORY_ID: ${{ github.repository_id }}
       PRIVADO_REPOSITORY_NAME: ${{ github.repository }}
       PRIVADO_COMMIT_ID: ${{ github.sha }}
